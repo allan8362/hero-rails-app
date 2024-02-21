@@ -1,9 +1,9 @@
 version: 2
 updates:
-  - package-ecosystem: 'bundler'
-    directory: '/'
-    schedule:
-      interval: 'weekly'
-    ignore:
-      - dependancy-name: "rails"
-        update-types: [version-update:semver-major"]
+- package-ecosystem: 'bundler'
+  directory: '/'
+  schedule:
+    interval: 'weekly'
+  ignore:
+    - dependency-name: "rails"
+      update-types: ["version-update:semver-major"]
